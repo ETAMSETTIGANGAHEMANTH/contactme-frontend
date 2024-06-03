@@ -1,0 +1,35 @@
+.lmain_div{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 15%;
+}
+.lsecond_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lfirst_div img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+.badcredientials{
+	display:flex;
+	justify-content:center;
+}
+img {
+    max-width: 100%;
+  }
+  
+  @media (max-width: 800px) {
+    .lfirst_div {
+      display: none;
+    }
+  }
+
+
+  @media (max-width: 800px) { /* Adjust breakpoint as needed */
+    .lsecond_div {
+      width: 80%; /* Make the form span the full width on smaller screens */
+    }
+  }
